@@ -20,20 +20,6 @@ def insertInto_MinMaxHeap(heap, size, rememberInsertions = False):
 # PYTESTS:
 
 # INSERTION TESTS:
-
-# Insert on a tiny heap:   
-def test_tinyInsert():
-    h = minMaxHeap(10)        # make a new heap with maximum of 10 elements
-    h.insert(1, "A")
-    h.insert(2, "B")
-    h.insert(3, "C")
-    h.insert(100, "D")
-    h.insert(4, "E")
-    h.insert(2.5, "F")
-    assert h.lenHeap() == 6   # check that the length of it is how many were inserted
-    assert h.findMax() == 100
-    assert h.findMin() == 1
-   
     
 # Insert on a small heap:   
 def test_smallInsert():
