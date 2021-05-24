@@ -9,9 +9,10 @@ This means we can achieve:
 
 - insertion/deletion in O(log(n)) time 
 
-of both the mins and maxes
+of both the mins and maxes.
+
 
 
 At even levels of the tree - each node is less then all of its children, 
 
-while at odd levels - each node is greater than all of its children
+while at odd levels - each node is greater than all of its children.
